@@ -1,0 +1,13 @@
+<phpunit backupGlobals="false"
+        colors="true">
+    <testsuites>
+        <testsuite name="PHP Unit">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>src</directory>
+        </whitelist>
+    </filter>
+</phpunit>

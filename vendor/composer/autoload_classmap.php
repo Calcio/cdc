@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/src/Factory.php',
@@ -77,6 +78,13 @@ return array(
     'Hamcrest\\Type\\IsString' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
     'Hamcrest\\Util' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
     'Hamcrest\\Xml\\HasXPath' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+    'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/Assert.php',
+    'PHPUnit\\Framework\\AssertionFailedError' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/AssertionFailedError.php',
+    'PHPUnit\\Framework\\BaseTestListener' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/BaseTestListener.php',
+    'PHPUnit\\Framework\\Test' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/Test.php',
+    'PHPUnit\\Framework\\TestCase' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/TestCase.php',
+    'PHPUnit\\Framework\\TestListener' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/TestListener.php',
+    'PHPUnit\\Framework\\TestSuite' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/TestSuite.php',
     'PHPUnit_Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit_Extensions_GroupTestSuite' => $vendorDir . '/phpunit/phpunit/src/Extensions/GroupTestSuite.php',
     'PHPUnit_Extensions_PhptTestCase' => $vendorDir . '/phpunit/phpunit/src/Extensions/PhptTestCase.php',
@@ -404,6 +412,7 @@ return array(
     'PHP_Token_NEW' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_NS_C' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_NS_SEPARATOR' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
+    'PHP_Token_NULLSAFE_OBJECT_OPERATOR' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_NUM_STRING' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_OBJECT_CAST' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_OBJECT_OPERATOR' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
